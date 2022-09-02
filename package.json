@@ -1,0 +1,30 @@
+{
+    "name": "slack-bolt-app-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nick-w-nick/slack-bolt-app-example.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nick-w-nick/slack-bolt-app-example/issues"
+    },
+    "homepage": "https://github.com/nick-w-nick/slack-bolt-app-example#readme",
+    "dependencies": {
+        "@slack/bolt": "^3.12.1",
+        "axios": "^0.27.2",
+        "firebase-admin": "^11.0.1"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.2",
+        "nodemon": "^2.0.19"
+    }
+}
